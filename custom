@@ -2109,7 +2109,7 @@ if game.CoreGui:FindFirstChild("woof") then
     -- local LabelStroke = Instance.new("UIStroke")
     -- LabelStroke.Parent = Label
     -- LabelStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-    -- LabelStroke.Color = Color3.fromRGB(65, 65, 65)
+    LabelStroke.Color = Color3.fromRG  B(0, 255, 255)
     -- LabelStroke.Transparency = 0.6
     
     LabelCorner.CornerRadius = UDim.new(0, 5)
